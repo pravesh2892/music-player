@@ -1,0 +1,29 @@
+  
+
+.song-title-name{
+  max-width: 100%;
+  height: calc(var(--lcd-height, 44px) - 3px);
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1;
+  align-items: var(--lcd-justify-text, center);
+  justify-content: center;
+  overflow: hidden;
+   position: relative;
+}
+.lcd__badge-platter{
+  font-size: 11px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-top: auto;
+    margin-bottom: 4px;
+    padding: 0px 4px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    border-radius: 3px;
+    background-color: #d60017;
+    margin-inline-start: 8px;
+    justify-self: end;
+}
